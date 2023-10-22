@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "EuroPi")(type "KiCad")(uri "${KIPRJMOD}/footprints/EuroPi.pretty")(options "")(descr ""))
+)
