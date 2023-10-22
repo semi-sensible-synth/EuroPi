@@ -19,8 +19,9 @@ Please note that a few of these are multi-packs of components, and there may wel
 | D1 - D4 | 4 | 1N5817 | Schottky Diode | [CPC](https://cpc.farnell.com/multicomp-pro/1n5817/schottky-rectifier-1a-20v-do-204al/dp/SC15528)
 | LED1 - LED6 | 6 | L-424HDT | 3mm LED | [CPC](https://cpc.farnell.com/kingbright/l-424hdt/led-flat-top-3mm-red/dp/SC11541)
 | VR1 - VR2 | 2 | 10k | 10 Kiloohm Linear Rotary Potentiometer | [CPC](https://cpc.farnell.com/alps/rk09k11310kb/potentiometer-10k-lin/dp/RE04560), [Thonk](https://www.thonk.co.uk/shop/alpha-9mm-pots-vertical-t18/) (B10K - T18 Shaft - Alpha Vertical Potentiometer)
-| SW1 - SW2 | 2 | D6RXX F1 LFS | C&K Tactile Switch (Non-Illuminated) | [Thonk](https://www.thonk.co.uk/shop/radio-music-switch/), [Mouser (Black)](https://www.mouser.co.uk/ProductDetail/CK/D6R90F1LFS?qs=WS%2FiepCTwPDejJXcQ7Ir1g%3D%3D&countrycode=US&currencycode=USD)
-| OLED1 | 1 | 0.91" SSD1306 | I2C OLED Display | [CPC](https://cpc.farnell.com/winstar/wea012832fwpp3n00000/oled-display-128x32-white-i2c/dp/SC15661), [The Pi Hut](https://thepihut.com/products/0-91-oled-display-module)
+| SW1 - SW2 | 2 | 6x6 tactile button | 6x6 14mm high momentary tactile button | [Ali Express](https://www.aliexpress.com/item/32960657626.html)
+| | 2 | G63 6mm button cap | Tactile button cap | [Ali Express (white)](https://www.aliexpress.com/item/32872180785.html), [Ali Express (black)](https://www.aliexpress.com/item/32873394381.html)
+| OLED1 | 1 | 0.91" SSD1306 | I2C OLED Display (38 mm wide) | [Ali Express](https://www.aliexpress.com/item/32672229793.html)
 | J1 - J8 | 8 | PJ398SM | Thonkiconn 3.5mm Mono Jack | [Thonk](https://www.thonk.co.uk/shop/thonkiconn/), [Banananuts](https://www.thonk.co.uk/shop/bananuts/), [Cosmonuts](https://www.thonk.co.uk/shop/cosmonuts/)
 | CONN0 | 2 (pairs) | 20x1 2.54mm | Pico Connection Header (Male + Female) | [Male](https://cpc.farnell.com/harwin/m22-2012005/header-vertical-1row-20way/dp/CN14644), [Female](https://cpc.farnell.com/multicomp/2212s-20sg-85/socket-pcb-1-row-20way/dp/CN14539)
 | CONN1 - CONN4 | 2 (pairs) | 4x2 2.54mm | PCB Connection Header (Male + Female) | [Male](https://cpc.farnell.com/harwin/m20-9980445/header-2row-4way/dp/CN14381), [Female](https://cpc.farnell.com/multicomp/2214s-08sg-85/socket-pcb-2-54mm-2-row-vert-8way/dp/CN18449)
@@ -37,8 +38,7 @@ Please note that a few of these are multi-packs of components, and there may wel
 | | 1 | | Raspberry Pi Pico | [The Pi Hut](https://thepihut.com/products/raspberry-pi-pico), [CPC](https://cpc.farnell.com/raspberry-pi/raspberry-pi-pico/raspberry-pi-pico-rp2040-mcu-board/dp/SC17106)
 
 #### Note about OLED
-The OLED has two suppliers listed, each with different pin configurations. The module supports either of these two configurations (the most common), but no others, so make sure that the one you buy, wherever you source it, has one of these two configurations.  
-It also *must* be 36mm or less. There are some displays which are 38mm wide, which will not only not fit within the width of the module, but will also leave the display off-centre in relation to the panel cutout. You can check the datasheet of any display before you buy to determine the width, but both of the displays listed in the BOM above are the correct 36mm.
 
-![OLED Pin Configurations](https://user-images.githubusercontent.com/79809962/145800121-2c88d73b-b4d2-4196-baa1-8628dc327467.png)
-![OLED Width](https://user-images.githubusercontent.com/79809962/153423641-4242a637-bd0d-493f-a1f7-94823b07cfd7.png)
+The OLED is a different model to the original EuroPi design. This version expects 38mm wide 0.91" OLEDs (common on Ali Express), albeit slightly offset from center. The default pin configuration is correct for the OLED in the BOM (GND/VCC/SCL/SDA), however the module supports alternative pin configurations via a some exposed pads in 'bodge' area. You can connect these as required if you happen to have a different pinout. 
+
+![OLED Width](https://ae01.alicdn.com/kf/HTB1wltTKXXXXXXPXVXXq6xXFXXXj.jpg) - **TODO**: Upload our own image

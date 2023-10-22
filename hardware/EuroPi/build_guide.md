@@ -1,5 +1,9 @@
 # Build Guide
 
+> **NOTE:** _This build guide hasn't been updated for the "Semi-Sensible Synth THT KiCad remix" version, however most parts are very similar. Follow the [iBOM](kicad/ibom/ibom.html)_
+
+----
+
 #### Introduction
 This document will go through the assembly of the EuroPi module.  
 If you have bought only a Panel + PCB kit, you will need to also buy all of the components found in the [bill of materials](/hardware/EuroPi/bill_of_materials.md).  

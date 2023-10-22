@@ -1,5 +1,10 @@
-# EuroPi
+# EuroPi (Semi-Sensible Synth THT KiCad remix)
 
+This is a remix of the [original EuroPi](https://github.com/Allen-Synthesis/EuroPi) eurorack module with a few changes:
+
+- Input jacks at bottom, above output jacks
+- Uses cheaper (?) tactile buttons
+- Uses a 38mm OLED, commonly sold on AliExpress
 
 The EuroPi is a fully user reprogrammable module based on the [Raspberry Pi Pico](https://www.raspberrypi.com/products/raspberry-pi-pico/), which allows users to process inputs and controls to produce outputs based on code written in Python. The entire project is open-source.
 
@@ -21,12 +26,15 @@ The EuroPi is a fully user reprogrammable module based on the [Raspberry Pi Pico
   
 </p>
 
+
+
 ---
 
 This repository relates to the EuroPi module, however some users may be expecting to see what is now referred to as the 'EuroPi Prototype'. The repository for this (now deprecated) module [can be found here](https://github.com/roryjamesallen/EuroPi-Prototype)
 
 You can find more about this and other projects of mine on [my website](https://www.allensynthesis.co.uk)
 
+**TODO**: -> Insert image of completed module in place of this banner. <-
 ![github banner](https://user-images.githubusercontent.com/79809962/157898134-44cc0534-ac3b-4051-9773-a3be95ba4602.jpg)
 
 ## Capabilities
@@ -38,16 +46,6 @@ You can find more about this and other projects of mine on [my website](https://
 * 1 Digital input for external clocking or gate sources
 * 128x32 OLED Display
 * I²C expansion header on the rear for extra sensors or outputs
-
-### Improvements on the Prototype version
-
-* All outputs are the full Eurorack unipolar range of 0-10V, previously only 0-3.3V
-* Two inputs, previously no way to accept input from other modules
-* The buttons have hardware debouncing to allow users to change out capacitor values for reduced accidental 'double click'
-* A 10 pin Eurorack shrouded power header is now used to prevent accidental reverse powering of the module
-* The 5V supply for the Pico is now regulated down from the +12V supply, so no 5V rail is required from your Eurorack power supply
-* The power supply is now diode protected to prevent back-powering your rack when the module is connected via USB
-* All jacks are protected from overvoltage input (previously the Pico GPIO pin was directly exposed to any input, potentially leading to damage)
 
 ### Documentation
 
