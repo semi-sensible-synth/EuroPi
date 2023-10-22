@@ -1,0 +1,255 @@
+Plot Report
+-----------
+
+Report Written:     Monday, December 20, 2021
+Design Path:        C:\Users\Rory\Documents\Allen Synthesis Website\Modules\EuroPi\HUGE 8HP, Screen\Hardware\PCB\Jack PCB - Jumper OLED.pcb
+Design Title:       
+Created:            09/09/2021 13:46:40
+Last Saved:         20/12/2021 13:36:13
+Editing Time:       1605 min
+Units:              mm (precision 1)
+
+
+Device Settings
+===============
+
+
+Gerber Settings
+===============
+
+    Leading zero suppression.
+    G01 assumed throughout.
+    Line termination <*> <CR> <LF>.
+    3.5 format absolute mm.
+    Format commands defined in Gerber file.
+    Aperture table defined in Gerber file.
+    Hardware arcs allowed.
+
+
+Drill Settings
+==============
+
+    Excellon Format 1
+    Format 3.5 absolute in mm.
+    Zero suppression None
+
+
+
+Plots Output
+============
+
+    Plot Job: "C:\Users\Rory\Documents\Allen Synthesis Website\Modules\EuroPi\HUGE 8HP, Screen\Hardware\PCB\Jack PCB - Jumper OLED.mop"
+
+
+Gerber Output
+=============
+
+C:\Users\Rory\Documents\Allen Synthesis Website\Modules\EuroPi\HUGE 8HP, Screen\Hardware\PCB\Jack Gerber\Jack PCB - Jumper OLED - Top Copper.gbr
+
+    Layers:
+    --------------
+    Top Copper
+
+    D-Code Shape  (mm)
+    ----------------------
+    D13    Round 0.305
+    D14    Round 0.254
+    D15    Round 0.500
+    D17    Round 1.600
+    D18    Round 1.524
+    D19    Round 2.000
+    D29    Round 2.500
+    D72    Square 2.500
+    D73    Round 3.500
+    D75    Round 1.500
+    D129   Round 3.200
+    D137   Round 1.800
+
+Gerber Output
+=============
+
+C:\Users\Rory\Documents\Allen Synthesis Website\Modules\EuroPi\HUGE 8HP, Screen\Hardware\PCB\Jack Gerber\Jack PCB - Jumper OLED - Top Copper (Resist).gbr
+
+    Layers:
+    --------------
+    Top Copper
+
+    D-Code Shape  (mm)
+    ----------------------
+    D71    Round 1.778
+    D20    Round 2.254
+    D77    Round 2.754
+    D78    Square 2.754
+    D79    Round 3.754
+    D81    Round 1.754
+    D130   Round 3.454
+    D138   Round 2.054
+
+Gerber Output
+=============
+
+C:\Users\Rory\Documents\Allen Synthesis Website\Modules\EuroPi\HUGE 8HP, Screen\Hardware\PCB\Jack Gerber\Jack PCB - Jumper OLED - Top Copper (Paste).gbr
+
+    Layers:
+    --------------
+    Top Copper
+
+    D-Code Shape  (mm)
+    ---------------------
+
+Gerber Output
+=============
+
+C:\Users\Rory\Documents\Allen Synthesis Website\Modules\EuroPi\HUGE 8HP, Screen\Hardware\PCB\Jack Gerber\Jack PCB - Jumper OLED - Top Silkscreen.gbr
+
+    Layers:
+    ------------------
+    Top Silkscreen
+
+    D-Code Shape  (mm)
+    ---------------------
+    D10    Round 0.127
+    D13    Round 0.305
+    D137   Round 1.800
+    D139   Round 0.150
+
+Gerber Output
+=============
+
+C:\Users\Rory\Documents\Allen Synthesis Website\Modules\EuroPi\HUGE 8HP, Screen\Hardware\PCB\Jack Gerber\Jack PCB - Jumper OLED - Bottom Copper.gbr
+
+    Layers:
+    -----------------
+    Bottom Copper
+
+    D-Code Shape  (mm)
+    ---------------------
+    D15    Round 0.500
+    D17    Round 1.600
+    D18    Round 1.524
+    D19    Round 2.000
+    D129   Round 3.200
+    D137   Round 1.800
+
+Gerber Output
+=============
+
+C:\Users\Rory\Documents\Allen Synthesis Website\Modules\EuroPi\HUGE 8HP, Screen\Hardware\PCB\Jack Gerber\Jack PCB - Jumper OLED - Bottom Copper (Resist).gbr
+
+    Layers:
+    -----------------
+    Bottom Copper
+
+    D-Code Shape  (mm)
+    ---------------------
+    D71    Round 1.778
+    D20    Round 2.254
+    D130   Round 3.454
+    D138   Round 2.054
+
+Gerber Output
+=============
+
+C:\Users\Rory\Documents\Allen Synthesis Website\Modules\EuroPi\HUGE 8HP, Screen\Hardware\PCB\Jack Gerber\Jack PCB - Jumper OLED - Bottom Copper (Paste).gbr
+
+    Layers:
+    -----------------
+    Bottom Copper
+
+    D-Code Shape  (mm)
+    ---------------------
+
+Gerber Output
+=============
+
+C:\Users\Rory\Documents\Allen Synthesis Website\Modules\EuroPi\HUGE 8HP, Screen\Hardware\PCB\Jack Gerber\Jack PCB - Jumper OLED - Bottom Silkscreen.gbr
+
+    Layers:
+    ---------------------
+    Bottom Silkscreen
+
+    D-Code Shape  (mm)
+    ---------------------
+    D10    Round 0.127
+    D11    Round 0.100
+    D13    Round 0.305
+
+NC Drill Output
+===============
+
+C:\Users\Rory\Documents\Allen Synthesis Website\Modules\EuroPi\HUGE 8HP, Screen\Hardware\PCB\Jack Gerber\Jack PCB - Jumper OLED - Drill Data - [Through Hole].drl
+
+    Output:
+    ---------------------------
+    Plated Round Drill Holes
+    Plated Slots
+
+    Tool  Size       Count   ID
+    ----------------------------------
+    T001  0.60000 mm 12    M
+    T002  0.80000 mm 57    W
+    T003  0.88900 mm 4     O
+    T004  1.00000 mm 56    A
+    T005  1.10000 mm 14    C
+    T006  1.50000 mm 24    R
+    T007  3.00000 mm 5     D
+    ----------------------------------
+    Total            172
+    ----------------------------------
+
+C:\Users\Rory\Documents\Allen Synthesis Website\Modules\EuroPi\HUGE 8HP, Screen\Hardware\PCB\Jack Gerber\Jack PCB - Jumper OLED - Drill Data - [Through Hole] (Unplated).drl
+
+    Output:
+    -----------------------------
+    Unplated Round Drill Holes
+    Unplated Slots
+
+    Tool  Size Count   ID
+    ----------------------------
+    ----------------------------
+    Total      0
+    ----------------------------
+
+
+Gerber Output
+=============
+
+C:\Users\Rory\Documents\Allen Synthesis Website\Modules\EuroPi\HUGE 8HP, Screen\Hardware\PCB\Jack Gerber\Jack PCB - Jumper OLED - Drill Ident Drawing - [Through Hole].gbr
+
+    Layers:
+    ------------------
+    [Through Hole]
+
+
+Drill Ident Drawing
+===================
+
+    Drill Plated Size  Shape ID
+    ------------------------------------
+    1.000 Y      2.540 Round A
+    1.100 Y      2.540 Round C
+    3.000 Y      2.540 Round D
+    0.600 Y      2.540 Round M
+    0.889 Y      2.540 Round O
+    1.500 Y      2.540 Round R
+    0.800 Y      2.540 Round W
+
+    D-Code Shape  (mm)
+    ---------------------
+    D10    Round 0.127
+    D12    Round 2.540
+
+Gerber Output
+=============
+
+C:\Users\Rory\Documents\Allen Synthesis Website\Modules\EuroPi\HUGE 8HP, Screen\Hardware\PCB\Jack Gerber\Jack PCB - Jumper OLED - Outline.gbr
+
+    Layers:
+    ------------------
+    Board Outlines
+
+    D-Code Shape  (mm)
+    ---------------------
+    D13    Round 0.305
+
+End Of Report.

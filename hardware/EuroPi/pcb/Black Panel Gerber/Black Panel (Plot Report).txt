@@ -1,0 +1,151 @@
+Plot Report
+-----------
+
+Report Written:     Saturday, December 25, 2021
+Design Path:        C:\Users\Rory\Documents\Allen Synthesis Website\Modules\EuroPi\HUGE 8HP, Screen\Hardware\PCB\Alternate Panels\Black Panel.pcb
+Design Title:       
+Created:            15/10/2021 18:21:02
+Last Saved:         25/12/2021 14:56:07
+Editing Time:       781 min
+Units:              mm (precision 1)
+
+
+Device Settings
+===============
+
+
+Gerber Settings
+===============
+
+    Leading zero suppression.
+    G01 assumed throughout.
+    Line termination <*> <CR> <LF>.
+    3.5 format absolute mm.
+    Format commands defined in Gerber file.
+    Aperture table defined in Gerber file.
+    Hardware arcs allowed.
+
+
+Drill Settings
+==============
+
+    Excellon Format 1
+    Format 3.5 absolute in mm.
+    Zero suppression None
+
+
+
+Plots Output
+============
+
+    Plot Job: "C:\Users\Rory\Documents\Allen Synthesis Website\Modules\EuroPi\HUGE 8HP, Screen\Hardware\PCB\Alternate Panels\Black Panel.mop"
+
+
+Gerber Output
+=============
+
+C:\Users\Rory\Documents\Allen Synthesis Website\Modules\EuroPi\HUGE 8HP, Screen\Hardware\PCB\Alternate Panels\Black Panel Gerber\Black Panel - Bottom Silkscreen.gbr
+
+    Layers:
+    ---------------------
+    Bottom Silkscreen
+
+    D-Code Shape  (mm)
+    ---------------------
+    D87    Round 0.025
+
+Gerber Output
+=============
+
+C:\Users\Rory\Documents\Allen Synthesis Website\Modules\EuroPi\HUGE 8HP, Screen\Hardware\PCB\Alternate Panels\Black Panel Gerber\Black Panel - Bottom Copper.gbr
+
+    Layers:
+    -----------------
+    Bottom Copper
+
+    D-Code Shape  (mm)
+    ----------------------
+    D87    Round 0.025
+    D93    Round 8.000
+    D140   Round 7.000
+    D141   Round 10.000
+    D142   Round 4.000
+
+Gerber Output
+=============
+
+C:\Users\Rory\Documents\Allen Synthesis Website\Modules\EuroPi\HUGE 8HP, Screen\Hardware\PCB\Alternate Panels\Black Panel Gerber\Black Panel - Bottom Copper (Resist).gbr
+
+    Layers:
+    -----------------
+    Bottom Copper
+
+    D-Code Shape  (mm)
+    ----------------------
+    D87    Round 0.025
+    D93    Round 8.000
+    D140   Round 7.000
+    D141   Round 10.000
+    D142   Round 4.000
+
+Gerber Output
+=============
+
+C:\Users\Rory\Documents\Allen Synthesis Website\Modules\EuroPi\HUGE 8HP, Screen\Hardware\PCB\Alternate Panels\Black Panel Gerber\Black Panel - Bottom Copper (Paste).gbr
+
+    Layers:
+    -----------------
+    Bottom Copper
+
+    D-Code Shape  (mm)
+    ---------------------
+
+NC Drill Output
+===============
+
+C:\Users\Rory\Documents\Allen Synthesis Website\Modules\EuroPi\HUGE 8HP, Screen\Hardware\PCB\Alternate Panels\Black Panel Gerber\Black Panel - Drill Data - [Through Hole].drl
+
+    Output:
+    ---------------------------
+    Plated Round Drill Holes
+    Plated Slots
+
+    Tool  Size       Count   ID
+    ----------------------------------
+    T001  3.10000 mm 6     I
+    T002  3.20000 mm 2     H
+    T003  6.10000 mm 8     F
+    T004  7.10000 mm 2     K
+    T005  9.10000 mm 2     G
+    ----------------------------------
+    Total            20
+    ----------------------------------
+
+C:\Users\Rory\Documents\Allen Synthesis Website\Modules\EuroPi\HUGE 8HP, Screen\Hardware\PCB\Alternate Panels\Black Panel Gerber\Black Panel - Drill Data - [Through Hole] (Unplated).drl
+
+    Output:
+    -----------------------------
+    Unplated Round Drill Holes
+    Unplated Slots
+
+    Tool  Size Count   ID
+    ----------------------------
+    ----------------------------
+    Total      0
+    ----------------------------
+
+
+Gerber Output
+=============
+
+C:\Users\Rory\Documents\Allen Synthesis Website\Modules\EuroPi\HUGE 8HP, Screen\Hardware\PCB\Alternate Panels\Black Panel Gerber\Black Panel - Outline.gbr
+
+    Layers:
+    ------------------
+    Board Outlines
+
+    D-Code Shape  (mm)
+    ---------------------
+    D13    Round 0.305
+
+End Of Report.
