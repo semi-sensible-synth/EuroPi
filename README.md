@@ -34,8 +34,9 @@ This repository relates to the EuroPi module, however some users may be expectin
 
 You can find more about this and other projects of mine on [my website](https://www.allensynthesis.co.uk)
 
-**TODO**: -> Insert image of completed module in place of this banner. <-
-![github banner](https://user-images.githubusercontent.com/79809962/157898134-44cc0534-ac3b-4051-9773-a3be95ba4602.jpg)
+![europi-sss-tht_module_pron](https://github.com/semi-sensible-synth/EuroPi/assets/39485/0b0f6796-1867-4e7d-9ce7-26a27041ebb7)
+
+
 
 ## Capabilities
 
