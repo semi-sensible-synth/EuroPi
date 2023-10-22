@@ -41,4 +41,5 @@ Please note that a few of these are multi-packs of components, and there may wel
 
 The OLED is a different model to the original EuroPi design. This version expects 38mm wide 0.91" OLEDs (common on Ali Express), albeit slightly offset from center. The default pin configuration is correct for the OLED in the BOM (GND/VCC/SCL/SDA), however the module supports alternative pin configurations via a some exposed pads in 'bodge' area. You can connect these as required if you happen to have a different pinout. 
 
-![OLED Width](https://ae01.alicdn.com/kf/HTB1wltTKXXXXXXPXVXXq6xXFXXXj.jpg) - **TODO**: Upload our own image
+![38mm_OLED_dimensions](https://github.com/semi-sensible-synth/EuroPi/assets/39485/b9958d79-439f-4f1f-9d74-e35f4b7d94ee)
+
