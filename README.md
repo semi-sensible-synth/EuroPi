@@ -6,6 +6,8 @@ This is a remix of the [original EuroPi](https://github.com/Allen-Synthesis/Euro
 - Uses cheaper (?) tactile buttons
 - Uses a 38mm OLED, commonly sold on AliExpress
 
+If you are building one right now ... [use the iBOM](https://rawcdn.githack.com/semi-sensible-synth/EuroPi/e1486020547788293de8dd8d0f69c1b8743ea925/hardware/EuroPi/kicad/ibom/ibom.html) to help with parts placement.
+
 The EuroPi is a fully user reprogrammable module based on the [Raspberry Pi Pico](https://www.raspberrypi.com/products/raspberry-pi-pico/), which allows users to process inputs and controls to produce outputs based on code written in Python. The entire project is open-source.
 
 <p>
